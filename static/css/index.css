@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'main_font';
+  src: url("../assets/ClearSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'main_font';
+  src: url("../assets/ClearSans-Bold.ttf");
+  font-weight:bold;
+}
+
+.first-contain {
+  background-image: url("../assets/anan-desktop-background-1.png");
+  background-color: #2F516D;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  overflow:auto;
+}
+
+#headers {
+  font-family: 'main_font';
+  float:left;
+  margin-left: 12.5%;
+  margin-top: 6%;
+}
+
+#headers h1 {
+
+  font-size:6.8em;
+  color: white;
+  letter-spacing: 4px;
+  margin: -0.15em 0em;
+  white-space: nowrap;
+  text-rendering: optimizeLegibility;
+  float: left;
+  clear: both;
+}
+
+#headers span {
+  float:left;
+  position: relative;
+  left: 2em;
+  top: 2em;
+  letter-spacing: 0.13em;
+}
+
+#headers p {
+  margin: 0;
+  color:white;
+}
+
+.header-stagger1 {
+  margin-left: 9% !important;
+}
+.header-stagger2 {
+  margin-left: 15% !important;
+}
+
+#anan-logo {
+  float:right;
+  background-image: url("../assets/anan1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:16em;
+  height:8em;
+  margin-top:7%;
+  margin-right:13%;
+}
+
+#contact-us {
+  clear: both;
+  font-family: 'main_font';
+  color: white;
+  padding-top: 3%;
+  letter-spacing: 0.15em;
+}
+
+#contact-us p {
+  margin: 0;
+}
+
+#contact-us p a {
+  color: #BCA178;
+}
+
+#email-btn {
+  float: left;
+  width: 6em;
+  height: 1em;
+  background-color: #BCA178;
+  padding: 0.65em 1.9em;
+  margin-left: 14%;
+  margin-right: 3%;
+  line-height: 1em;
+  margin-top: 0.2em;
+  color: white;
+}
+
+#down-arrow {
+  background-image: url("../assets/down-arrow-icon.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 2em;
+  height: 1em;
+  margin-top:3em;
+  margin-left:50%;
+}
+
+.second-contain {
+  background-image: url("../assets/anan_web_image.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 100vh;
+  font-family: 'main_font';
+}
+
+#bar-logo {
+  background-image: url("../assets/anan2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:20em;
+  height:10.2em;
+  margin-left: 10%;
+  margin-bottom:2em;
+  display: inline-block;
+  margin-top:7%;
+}
+
+#text-wrapper {
+  width: 13em;
+  margin-left: 12.5%;
+  font-size: 1.25em;
+  color: white;
+  letter-spacing: 0.13em
+}
+
+#social-icons {
+  margin-left: 12.5%;
+  margin-top:2em;
+}
+
+#fb-icon {
+  background-image: url("../assets/fb-icon.png");
+  margin-left: 0em;
+}
+
+#twitter-icon {
+  background-image: url("../assets/twitter-icon.png");
+  margin-left: 1em;
+}
+
+#instagram-icon {
+  background-image: url("../assets/instagram-icon.png");
+}
+
+#email-icon {
+  background-image: url("../assets/mail-icon.png");
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1.5em;
+  height: 1.3em;
+  margin-left: 1.5em;
+  float: left;
+}
+
+@media (max-width: 640px) {
+  .first-contain {
+    background-image: url("../assets/anan-desktop-background-1.png");
+    background-color: #2F516D;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    overflow:auto;
+  }
+
+  #headers {
+    font-family: 'main_font';
+    float:left;
+    margin-left: 12.5%;
+    margin-top: 6%;
+  }
+
+  #headers h1 {
+
+    font-size:6.8em;
+    color: white;
+    letter-spacing: 4px;
+    margin: -0.15em 0em;
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    float: left;
+    clear: both;
+  }
+
+  #headers span {
+    float:left;
+    position: relative;
+    left: 2em;
+    top: 2em;
+    letter-spacing: 0.13em;
+  }
+
+  #headers p {
+    margin: 0;
+    color:white;
+  }
+
+  .header-stagger1 {
+    margin-left: 9% !important;
+  }
+  .header-stagger2 {
+    margin-left: 15% !important;
+  }
+
+  #anan-logo {
+    float:right;
+    background-image: url("../assets/anan1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:16em;
+    height:8em;
+    margin-top:7%;
+    margin-right:13%;
+  }
+
+  #contact-us {
+    clear: both;
+    font-family: 'main_font';
+    color: white;
+    padding-top: 3%;
+    letter-spacing: 0.15em;
+  }
+
+  #contact-us p {
+    margin: 0;
+  }
+
+  #contact-us p a {
+    color: #BCA178;
+  }
+
+  #email-btn {
+    float: left;
+    width: 6em;
+    height: 1em;
+    background-color: #BCA178;
+    padding: 0.65em 1.9em;
+    margin-left: 14%;
+    margin-right: 3%;
+    line-height: 1em;
+    margin-top: 0.2em;
+    color: white;
+  }
+
+  #down-arrow {
+    background-image: url("../assets/down-arrow-icon.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 2em;
+    height: 1em;
+    margin-top:3em;
+    margin-left:50%;
+  }
+
+  .second-contain {
+    background-image: url("../assets/anan_web_image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    font-family: 'main_font';
+  }
+
+  #bar-logo {
+    background-image: url("../assets/anan2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:20em;
+    height:10.2em;
+    margin-left: 10%;
+    margin-bottom:2em;
+    display: inline-block;
+    margin-top:7%;
+  }
+
+  #text-wrapper {
+    width: 13em;
+    margin-left: 12.5%;
+    font-size: 1.25em;
+    color: white;
+    letter-spacing: 0.13em
+  }
+
+  #social-icons {
+    margin-left: 12.5%;
+    margin-top:2em;
+  }
+
+  .icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5em;
+    height: 1.3em;
+    margin-left: 1.5em;
+    float: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
