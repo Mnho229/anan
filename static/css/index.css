@@ -206,7 +206,7 @@
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .first-contain {
     background-image: url("../assets/anan-mobile-bg-1.png");
     background-color: #2F516D;
