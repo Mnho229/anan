@@ -214,6 +214,7 @@
     background-size: 100% 100%;
     min-height: 100vh;
     overflow:auto;
+    padding-bottom: 50px;
   }
 
   #headers {
@@ -306,6 +307,7 @@
   .second-contain {
     background-image: url("../assets/anan-mobile-bg-2.jpg");
     min-height: 67vh;
+    padding-bottom: 50px;
   }
 
   #bar-logo {
