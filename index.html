@@ -3,20 +3,28 @@
   <head>
     <meta name="viewport" content="initial-scale=1">
     <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
-    <section class="first-contain">
+    <div id="black-screen">
+      <div id="b-header-section">
+        <h1 id="b-header-1" class="b-headers">OLD</h1>
+        <h1 id="b-header-2" class="b-headers">MARKET -</h1>
+        <h1 id="b-header-3" class="b-headers">NEW</h1>
+      </div>
+    </div>
+    <section id="first-contain" class="scro" data-section-name="first">
       <div id="anan-logo"></div>
-      <div id="headers">
-        <h1>OLD</h1>
-        <h1 class="header-stagger1">MARKET -</h1>
-        <h1>NEW</h1>
+      <div id="header-section">
+        <h1 class="headers">OLD</h1>
+        <h1 class="headers header-stagger1">MARKET -</h1>
+        <h1 class="headers">NEW</h1>
         <span>
           <p>March 2017</p>
           <p>89 Ton That Dam</p>
           <p>D1, Ho Chi Minh city</p>
         </span>
-        <h1 class="header-stagger2">KITCHEN</h1>
+        <h1 id="header-4" class="headers header-stagger2">KITCHEN</h1>
       </div>
       <span id="mobile-location">
         <p>March 2017</p>
@@ -32,7 +40,7 @@
       </div>
       <div id="down-arrow"></span>
     </section>
-    <section class="second-contain">
+    <section id="second-contain" class="scro" data-section-name="second">
       <div id="bar-logo"></div>
       <div id="text-wrapper">
         <h5>RE-OPENING SOON</h5>
@@ -46,4 +54,7 @@
       </div>
     </section>
   </body>
+  <script src="static/vendor/jquery-3.1.1.min.js"></script>
+  <script src="static/vendor/jquery.scrollify.min.js"></script>
+  <script src="static/js/index.js"></script>
 </html>
