@@ -254,8 +254,6 @@ body {
 
 /* -----------------------------Mobile----------------------------- */
 
-
-
 @media (max-width: 420px) {
 
   #black-screen {
@@ -268,7 +266,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 100vh;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
   }
 
   #header-section {
@@ -379,7 +377,7 @@ body {
 
   #text-wrapper {
     width: 12em;
-    margin-left: 15%;
+    margin-left: 14%;
     color: white;
     letter-spacing: 0.13em;
     margin-top: 1.5em;
@@ -393,7 +391,7 @@ body {
   }
 
   #social-icons {
-    margin-left: 15%;
+    margin-left: 14%;
     margin-top:2em;
   }
 
@@ -407,9 +405,205 @@ body {
   }
 }
 
+@media (min-width: 841px) and (max-width: 1040px) {
+  #black-screen {
+    display:none;
+  }
 
+  #header-section {
+    margin-left: 10%;
+    margin-top: 6%;
+  }
 
+  .headers {
 
+    font-size: 5em;
+    color: white;
+    letter-spacing: 4px;
+    margin: -0.1em 0em;
+    
+  }
+
+  #header-section span {
+    left: 2em;
+    top: 2em;
+    font-size: 0.8em;
+  }
+
+  #header-4 {
+    animation: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 840px) {
+  #black-screen {
+    display:none;
+  }
+
+  #header-section {
+    margin-left: 8%;
+    margin-top: 6%;
+    clear: left;
+  }
+
+  .headers {
+
+    font-size: 4.5em;
+    color: white;
+    letter-spacing: 4px;
+    margin: -0.1em 0em;
+    
+  }
+
+  #header-section span {
+    left: 2em;
+    top: 1.5em;
+    font-size: 0.8em;
+  }
+
+  #header-4 {
+    animation: none;
+  }
+
+  #anan-logo {
+    float: left;
+    margin-left: 8%;
+    width: 13em;
+    height: 6em;
+  }
+
+}
+
+@media (min-width: 421px) and (max-width: 639px) {
+  #black-screen {
+    display:none;
+  }
+
+  #first-contain {
+    background-image: url("../assets/anan-mobile-bg-1.png");
+    padding-bottom: 25px;
+  }
+
+  #header-section {
+    margin-left: 8%;
+    margin-top: 6%;
+    clear: left;
+  }
+
+  .headers {
+
+    font-size: 4em;
+    color: white;
+    letter-spacing: 4px;
+    margin: -0.1em 0em;
+    
+  }
+
+  #header-section span {
+    display: none;
+  }
+
+  #mobile-location {
+    font-family: 'main_font';
+    display: inline-block;
+    letter-spacing: 0.13em;
+    font-weight: 100;
+    color: white;
+    margin-left: 8%;
+    margin-top: 1.5em;
+    float: left;
+    clear: both;
+  }
+
+  #mobile-location p {
+    margin: 0;
+  }
+
+  #header-4 {
+    animation: none;
+    animation-duration: 0s;
+  }
+
+  #anan-logo {
+    float: left;
+    margin-left: 8%;
+    width: 10em;
+    height: 6em;
+  }
+
+  #contact-us a {
+    text-decoration: none;
+  }
+
+  #contact-us p {
+    margin: 0 0 0 7%;
+  }
+
+  #email-btn {
+    float: none;
+    width: 7em;
+    height: 1.2em;
+    background-color: #BCA178;
+    padding: 0.65em 1.9em;
+    margin-left: 7%;
+    margin-right: 3%;
+    line-height: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.13em;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+  }
+
+  #down-arrow {
+    display:none;
+  }
+
+  #second-contain {
+    background-image: url("../assets/anan-mobile-bg-2.jpg");
+    min-height: 67vh;
+    padding-bottom: 50px;
+  }
+
+  #bar-logo {
+    background-image: url("../assets/anan2.png");
+    width:9em;
+    height:8em;
+    margin-left: 8%;
+    margin-bottom: 0.5em;
+    margin-top: 15%;
+  }
+
+  #text-wrapper {
+    width: 12em;
+    margin-left: 14%;
+    color: white;
+    letter-spacing: 0.13em;
+    margin-top: 1.5em;
+    font-size:1.1em;
+  }
+
+  #text-wrapper h5 {
+    font-weight:200;
+    font-size: 1.1em;
+    margin: 0;
+  }
+
+  #social-icons {
+    margin-left: 14%;
+    margin-top:2em;
+  }
+
+  .icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em;
+    height: 1.6em;
+    margin-left: 1.5em;
+    float: left;
+  }
+}
 
 
 
