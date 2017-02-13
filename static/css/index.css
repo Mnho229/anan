@@ -301,7 +301,7 @@ body {
   }
 
   #header-4 {
-    animation:none;
+    animation-duration: 0s;
   }
 
   #mobile-location {
