@@ -257,6 +257,7 @@ body {
 
 
 @media (max-width: 420px) {
+
   #black-screen {
     display: none;
   }
@@ -267,7 +268,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 100vh;
-    overflow:auto;
     padding-bottom: 50px;
   }
 

@@ -58,8 +58,15 @@ $(function() {
     scrollbars: false,
   });
 
+  if ($(window).width() <= 420)
+  {
+    $.scrollify.disable();
+    $('body, html').css({"overflow": "auto"});
+    return;
+  }
+
   $(window).on('mousewheel DOMMouseScroll', function(event){
-    //event.preventDefault();
+
     if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
 
       // scroll up
