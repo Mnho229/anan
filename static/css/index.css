@@ -562,7 +562,7 @@ body {
 
   #second-contain {
     background-image: url("../assets/anan-mobile-bg-2.jpg");
-    min-height: 80vh;
+    min-height: 100vh;
   }
 
   #bar-logo {
