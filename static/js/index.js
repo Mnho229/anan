@@ -1,4 +1,8 @@
 $(function() {
+
+  function changeDisplay() {
+    $('#black-screen').css({"display": "none"});
+  }
  
   //add new function for ease of animation
   $.fn.extend({
@@ -7,6 +11,9 @@ $(function() {
       this.addClass('animated ' + animationName).one(animationEnd, function() {
         if (!display) {
           $(this).removeClass('animated ' + animationName);
+        }
+        else {
+          setTimeout(changeDisplay, 2000);
         }
       });
     }
