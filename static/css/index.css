@@ -504,6 +504,10 @@ body {
 
   #contact-us {
     animation: none;
+    letter-spacing: 0.1em;
+  }
+
+  #contact-us p {
     font-weight: 200;
   }
 
