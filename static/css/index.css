@@ -442,6 +442,7 @@ body {
     background-image: url("../assets/anan-ipad-bg-1.png");
     min-height:50vh;
     max-height:50vh;
+    overflow: hidden;
   }
 
   #header-section {
@@ -451,7 +452,7 @@ body {
   }
 
   .headers {
-    font-size: 4.5em;
+    font-size: 3.5em;
     color: white;
     letter-spacing: 4px;
     margin: -0.1em 0em;   
@@ -459,8 +460,8 @@ body {
 
   #header-section span {
     left: 2em;
-    top: 1.5em;
-    font-size: 0.8em;
+    top: 1.3em;
+    font-size: 0.65em;
   }
 
   #hide-swipe-anim {
@@ -485,10 +486,17 @@ body {
   }
 
   #anan-logo {
-    float: left;
-    margin-left: 8%;
-    width: 13em;
+    float: right;
+    width: 11em;
     height: 6em;
+  }
+
+  #contact-us {
+    animation: none;
+  }
+
+  #down-arrow {
+    display: none;
   }
 
   #second-contain {
