@@ -410,9 +410,6 @@ body {
 }
 
 @media (min-width: 841px) and (max-width: 1040px) {
-  #black-screen {
-    display:none;
-  }
 
   #header-section {
     margin-left: 10%;
@@ -440,8 +437,11 @@ body {
 }
 
 @media (min-width: 640px) and (max-width: 840px) {
-  #black-screen {
-    display:none;
+
+  #first-contain {
+    background-image: url("../assets/anan-ipad-bg-1.png");
+    min-height:50vh;
+    max-height:50vh;
   }
 
   #header-section {
@@ -451,18 +451,33 @@ body {
   }
 
   .headers {
-
     font-size: 4.5em;
     color: white;
     letter-spacing: 4px;
-    margin: -0.1em 0em;
-    
+    margin: -0.1em 0em;   
   }
 
   #header-section span {
     left: 2em;
     top: 1.5em;
     font-size: 0.8em;
+  }
+
+  #hide-swipe-anim {
+    animation: none;
+    display: none;
+  }
+
+  #header-1 {
+    animation:none;
+  }
+
+  #header-2 {
+    animation: none;
+  }
+
+  #header-3 {
+    animation: none;
   }
 
   #header-4 {
@@ -474,6 +489,11 @@ body {
     margin-left: 8%;
     width: 13em;
     height: 6em;
+  }
+
+  #second-contain {
+    min-height:50vh;
+    max-height:50vh;
   }
 
 }
