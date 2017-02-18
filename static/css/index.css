@@ -446,7 +446,7 @@ body {
   }
 
   #header-section {
-    margin-left: 8%;
+    margin-left: 9%;
     margin-top: 6%;
     clear: left;
   }
@@ -463,6 +463,7 @@ body {
     left: 2em;
     top: 1.3em;
     font-size: 0.85em;
+    font-weight: 200;
   }
 
   #hide-swipe-anim {
@@ -473,31 +474,41 @@ body {
   #header-1 {
     animation:none;
     animation-duration: 0s;
+    animation-fill-mode: none;
   }
 
   #header-2 {
     animation: none;
     animation-duration: 0s;
+    animation-fill-mode: none;
   }
 
   #header-3 {
     animation: none;
     animation-duration: 0s;
+    animation-fill-mode: none;
   }
 
   #header-4 {
     animation: none;
     animation-duration: 0s;
+    animation-fill-mode: none;
   }
 
   #anan-logo {
     float: right;
     width: 11em;
     height: 6em;
+    margin-right: 10%;
   }
 
   #contact-us {
     animation: none;
+    font-weight: 200;
+  }
+
+  #email-btn {
+    margin-left: 10%;
   }
 
   #down-arrow {
