@@ -454,8 +454,9 @@ body {
   .headers {
     font-size: 5em;
     color: white;
-    letter-spacing: 0.04em;
-    margin: -0.15em 0em;   
+    letter-spacing: 0.02em;
+    margin: -0.15em 0em;
+    font-weight: bold;   
   }
 
   #header-section span {
@@ -471,18 +472,22 @@ body {
 
   #header-1 {
     animation:none;
+    animation-duration: 0s;
   }
 
   #header-2 {
     animation: none;
+    animation-duration: 0s;
   }
 
   #header-3 {
     animation: none;
+    animation-duration: 0s;
   }
 
   #header-4 {
     animation: none;
+    animation-duration: 0s;
   }
 
   #anan-logo {
