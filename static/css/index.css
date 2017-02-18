@@ -439,7 +439,7 @@ body {
 @media (min-width: 640px) and (max-width: 840px) {
 
   #first-contain {
-    background-image: url("../assets/anan-ipad-bg-1.png");
+    background-image: url("../assets/anan-test.png");
     min-height:50vh;
     max-height:50vh;
     overflow: hidden;
