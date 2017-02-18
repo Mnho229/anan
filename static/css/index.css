@@ -444,7 +444,7 @@ body {
 
   #first-contain {
     background-image: url("../assets/anan-test.png");
-    background-size: 100% 110%;
+    background-size: 100% 95%;
     min-height:50vh;
     max-height:50vh;
     overflow: hidden;
