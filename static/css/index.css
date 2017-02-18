@@ -466,7 +466,7 @@ body {
 
   #header-section span {
     left: 2em;
-    top: 1.4em;
+    top: 1.5em;
     font-size: 0.75em;
     font-weight: 200;
   }
@@ -521,7 +521,7 @@ body {
   #email-btn {
     font-weight: 300;
     margin-left: 11%;
-    padding: 0.40em 1.2em;
+    padding: 0.45em 1.2em;
     font-size: 0.9em;
   }
 
@@ -532,6 +532,14 @@ body {
   #second-contain {
     min-height:50vh;
     max-height:50vh;
+  }
+
+  #bar-logo {
+    height: 7em;
+  }
+
+  #text-wrapper {
+    font-size: 1em;
   }
 
 }
