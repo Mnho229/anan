@@ -20,11 +20,12 @@ $(function() {
   });
 
   //initiate animation of first section
-  $("#b-header-1").animateCss('fadeInDownBig', false);
-  $("#b-header-2").animateCss('fadeInLeftBig', false);
-  $("#b-header-3").animateCss('fadeInUpBig', false);
-  $("#black-screen").animateCss('fadeOut', true);
-  $("#header-4").animateCss('fadeIn', false);
+  $("#header-1").animateCss('fadeInDownBig', false);
+  $("#header-2").animateCss('fadeInLeftBig', false);
+  $("#header-3").animateCss('fadeInUpBig', false);
+  $("#header-4").animateCss('fadeInLeftBig', false);
+  $("#contact-us").animateCss('fadeInUpBig', false);
+  $("#down-arrow").animateCss('fadeInUpBig', false);
 
   //scroll
   var enableListener = true;
@@ -32,7 +33,7 @@ $(function() {
   $.scrollify({
     section: ".scro",
     easing: "easeOutExpo",
-    scrollSpeed: 1130,
+    scrollSpeed: 1150,
     scrollbars: false,
   });
 

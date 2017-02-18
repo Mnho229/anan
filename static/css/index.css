@@ -27,49 +27,20 @@
   font-weight: 100;
 }
 
+@keyframes swipe-in {
+  0% {
+    transform: translate(0em);
+    width: 100%;
+  }
+  100% {
+    transform: translate(11.5em);
+    width: 0%;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
-}
-
-#black-screen {
-  font-family: 'main_font';
-  position: absolute;
-  min-height: 100vh;
-  min-width: 100%;
-  z-index: 2;
-  background-color: black;
-
-  animation-duration: 0.5s;
-  animation-delay: 2s;
-}
-
-#b-header-section {
-  margin-left: 12.5%;
-  margin-top: 7%;
-}
-
-.b-headers {
-  color: white;
-  font-size:6.8em;
-  letter-spacing: 4px;
-  margin: -0.287em 0em;
-  white-space: nowrap;
-  font-weight: 300;
-  white-space: nowrap;
-}
-
-#b-header-1 {
-  animation-duration: 0.7s;
-}
-
-#b-header-2 {
-  margin-left: 4%;
-  animation-delay: 0.5s;
-}
-
-#b-header-3 {
-  animation-delay: 0.8s;
 }
 
 #first-contain {
@@ -84,13 +55,13 @@ body {
 #header-section {
   font-family: 'main_font';
   float:left;
-  margin-left: 12.5%;
+  margin-left: 11%;
   margin-top: 6%;
 }
 
 .headers {
 
-  font-size:6.8em;
+  font-size:6.7em;
   color: white;
   letter-spacing: 4px;
   margin: -0.15em 0em;
@@ -109,20 +80,37 @@ body {
   font-weight: 100;
 }
 
+#hide-swipe-anim {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background-color: #2F516D;
+  animation: swipe-in 1.5s linear;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
 #header-section p {
   margin: 0;
   color:white;
 }
 
-.header-stagger1 {
-  margin-left: 9% !important;
+#header-1 {
+  animation-duration: 0.7s;
 }
-.header-stagger2 {
-  margin-left: 15% !important;
+
+#header-2 {
+  margin-left: 9% !important;
+  animation-delay: 0.5s;
+}
+
+#header-3 {
+  animation-delay: 0.8s;
 }
 
 #header-4 {
-  animation-delay: 2.5s;
+  margin-left: 15% !important;
+  animation-delay: 1.1s;
 }
 
 #mobile-location {
@@ -144,8 +132,9 @@ body {
   clear: both;
   font-family: 'main_font';
   color: white;
-  padding-top: 3%;
+  padding-top: 2%;
   letter-spacing: 0.15em;
+  animation-delay: 2s;
 }
 
 #contact-us p {
@@ -176,8 +165,10 @@ body {
   background-size:contain;
   width: 2em;
   height: 1em;
-  margin-top:5%;
-  margin-left:50%;
+  position: absolute;
+  left: 50%;
+  top: 94%;
+  animation-delay: 2.2s;
 }
 
 #second-contain {
@@ -208,6 +199,11 @@ body {
   letter-spacing: 0.13em;
   font-weight: 200;
 
+}
+
+#second-body {
+  font-size: 0.9em;
+  width:13em;
 }
 
 #text-wrapper h5 {
@@ -292,15 +288,22 @@ body {
     display:none;
   }
 
-  .header-stagger1 {
-    margin-left: 9% !important;
+  #header-1 {
+    animation-duration: 0s;
   }
-  .header-stagger2 {
-    margin-left: 15% !important;
+
+  #header-2 {
+    margin-left: 9% !important;
+    animation-delay: 0s;
+  }
+
+  #header-3 {
+    animation-delay: 0s;
   }
 
   #header-4 {
-    animation-duration: 0s;
+    margin-left: 15% !important;
+    animation-delay: 0s;
   }
 
   #mobile-location {
