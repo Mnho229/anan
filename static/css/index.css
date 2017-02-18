@@ -444,6 +444,7 @@ body {
 
   #first-contain {
     background-image: url("../assets/anan-test.png");
+    background-size: 100% 110%;
     min-height:50vh;
     max-height:50vh;
     overflow: hidden;
@@ -465,9 +466,9 @@ body {
 
   #header-section span {
     left: 2em;
-    top: 1.3em;
-    font-size: 0.85em;
-    font-weight: 300;
+    top: 1.4em;
+    font-size: 0.80em;
+    font-weight: 200;
   }
 
   #hide-swipe-anim {
@@ -520,7 +521,7 @@ body {
   #email-btn {
     font-weight: 300;
     margin-left: 11%;
-    padding: 0.60em 1.6em;
+    padding: 0.50em 1.6em;
   }
 
   #down-arrow {
