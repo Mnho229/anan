@@ -540,6 +540,11 @@ body {
 
   #text-wrapper {
     font-size: 1em;
+    font-weight: 300;
+  }
+
+  #second-body {
+    width: 12em;
   }
 
 }
