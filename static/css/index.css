@@ -460,14 +460,14 @@ body {
     font-size: 5em;
     color: white;
     letter-spacing: 0.02em;
-    margin: -0.15em 0em;
+    margin: -0.16em 0em;
     font-weight: bold;   
   }
 
   #header-section span {
     left: 2em;
     top: 1.4em;
-    font-size: 0.80em;
+    font-size: 0.75em;
     font-weight: 200;
   }
 
@@ -521,7 +521,7 @@ body {
   #email-btn {
     font-weight: 300;
     margin-left: 11%;
-    padding: 0.50em 1.4em;
+    padding: 0.40em 1.4em;
   }
 
   #down-arrow {
