@@ -540,11 +540,15 @@ body {
 
   #text-wrapper {
     font-size: 1em;
+  }
+
+  #text-wrapper h5 {
     font-weight: 300;
   }
 
   #second-body {
-    width: 12em;
+    width: 12.5em;
+    font-weight: 300;
   }
 
 }
