@@ -452,16 +452,16 @@ body {
   }
 
   .headers {
-    font-size: 4.8em;
+    font-size: 5em;
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 0.04em;
     margin: -0.15em 0em;   
   }
 
   #header-section span {
     left: 2em;
     top: 1.3em;
-    font-size: 0.65em;
+    font-size: 0.85em;
   }
 
   #hide-swipe-anim {
