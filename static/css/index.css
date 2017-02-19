@@ -438,6 +438,29 @@ body {
     font-size: 0.8em;
   }
 
+  #hide-swipe-anim {
+    animation: none;
+    display: none;
+  }
+
+  #header-1 {
+    animation:none;
+    animation-duration: 0s;
+    animation-fill-mode: none;
+  }
+
+  #header-2 {
+    animation: none;
+    animation-duration: 0s;
+    animation-fill-mode: none;
+  }
+
+  #header-3 {
+    animation: none;
+    animation-duration: 0s;
+    animation-fill-mode: none;
+  }
+
   #header-4 {
     animation: none;
   }
@@ -445,6 +468,11 @@ body {
   #anan-logo {
     width: 14em;
     margin-top: 11%;
+  }
+
+  #contact-us {
+    animation: none;
+    letter-spacing: 0.1em;
   }
 
   #contact-us p {
