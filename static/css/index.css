@@ -254,10 +254,6 @@ body {
 
 @media (max-width: 420px) {
 
-  #black-screen {
-    display: none;
-  }
-
   #first-contain {
     background-image: url("../assets/anan-mobile-bg-1.png");
     background-color: #2F516D;
@@ -271,7 +267,7 @@ body {
     font-family: 'main_font';
     float:left;
     margin-left: 7%;
-    margin-top: 6%;
+    margin-top: 5%;
   }
 
   .headers {
@@ -279,7 +275,7 @@ body {
     font-size: 3em;
     color: white;
     letter-spacing: 4px;
-    margin: -0.1em 0em;
+    margin: -0.15em 0em;
     white-space: nowrap;
     float: left;
     clear: both;
@@ -310,8 +306,8 @@ body {
   #mobile-location {
     font-family: 'main_font';
     display: inline-block;
-    letter-spacing: 0.13em;
-    font-weight: 100;
+    letter-spacing: 0.1em;
+    font-weight: 200;
     color: white;
     margin-left: 7%;
     margin-top: 1.5em;
@@ -338,18 +334,16 @@ body {
 
   #contact-us p {
     margin: 0 0 0 7%;
+    font-weight: 300;
   }
 
-  #contact-us p a {
-    color: #BCA178;
-  }
 
   #email-btn {
     float: none;
     width: 7em;
     height: 1.2em;
     background-color: #BCA178;
-    padding: 0.65em 1.9em;
+    padding: 0.65em 2em;
     margin-left: 7%;
     margin-right: 3%;
     line-height: 1.2em;
@@ -390,9 +384,13 @@ body {
   }
 
   #text-wrapper h5 {
-    font-weight:200;
+    font-weight:300;
     font-size: 1.1em;
     margin: 0;
+  }
+
+  #second-body {
+    font-weight: 300;
   }
 
   #social-icons {
@@ -468,7 +466,7 @@ body {
 
   #anan-logo {
     width: 14em;
-    margin-top: 11%;
+    margin-top: 10.5%;
   }
 
   #contact-us {
