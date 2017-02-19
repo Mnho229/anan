@@ -68,7 +68,7 @@ body {
   white-space: nowrap;
   float: left;
   clear: both;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 #header-section span {
@@ -124,7 +124,7 @@ body {
   background-size: contain;
   width:16em;
   height:8em;
-  margin-top:7%;
+  margin-top:6%;
   margin-right:13%;
 }
 
@@ -410,20 +410,25 @@ body {
   }
 }
 
+/*------------------------HORIZONTAL IPAD-------------------------*/
+
 @media (min-width: 841px) and (max-width: 1040px) {
 
+  #first-contain {
+    background-image: url("../assets/anan-ipad-bg-1.png");
+  }
+
   #header-section {
-    margin-left: 10%;
-    margin-top: 6%;
+    margin-left: 9%;
   }
 
   .headers {
 
-    font-size: 5em;
+    font-size: 6em;
     color: white;
     letter-spacing: 4px;
-    margin: -0.1em 0em;
-    
+    margin: -0.15em 0em;
+    font-weight: bold;
   }
 
   #header-section span {
