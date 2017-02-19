@@ -436,7 +436,7 @@ body {
     left: 2em;
     top: 1.5em;
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   #hide-swipe-anim {
@@ -497,12 +497,12 @@ body {
   }
 
   #text-wrapper h5 {
-    font-weight: 300;
+    font-weight: bold;
   }
 
   #second-body {
     width: 12.5em;
-    font-weight: 200;
+    font-weight: 300;
   }
 
 }
