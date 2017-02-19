@@ -434,7 +434,7 @@ body {
 
   #header-section span {
     left: 2em;
-    top: 1.8em;
+    top: 1.5em;
     font-size: 1em;
     font-weight: 200;
   }
@@ -489,6 +489,7 @@ body {
 
   #bar-logo {
     height: 7em;
+    margin-bottom: 3em;
   }
 
   #text-wrapper {
@@ -501,7 +502,7 @@ body {
 
   #second-body {
     width: 12.5em;
-    font-weight: 300;
+    font-weight: 200;
   }
 
 }
