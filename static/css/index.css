@@ -272,9 +272,9 @@ body {
 
   .headers {
 
-    font-size: 3.5em;
+    font-size: 3.25em;
     color: white;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.02em;
     margin: -0.15em 0em;
     white-space: nowrap;
     float: left;
@@ -371,9 +371,9 @@ body {
   #bar-logo {
     background-image: url("../assets/anan2.png");
     width:9em;
-    height:7em;
+    height:6em;
     margin-left: 7%;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.2em;
     margin-top: 15%;
   }
 
