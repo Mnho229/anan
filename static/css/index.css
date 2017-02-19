@@ -152,7 +152,7 @@ body {
   height: 1em;
   background-color: #BCA178;
   padding: 0.65em 1.9em;
-  margin-left: 14%;
+  margin-left: 13%;
   margin-right: 3%;
   line-height: 1em;
   margin-top: 0.2em;
@@ -170,6 +170,11 @@ body {
   left: 50%;
   top: 94%;
   animation-delay: 2.2s;
+}
+
+.bounce-anim {
+  animation-duration: 1s;
+  animation-delay: 3s;
 }
 
 #second-contain {

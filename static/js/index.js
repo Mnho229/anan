@@ -6,26 +6,29 @@ $(function() {
  
   //add new function for ease of animation
   $.fn.extend({
-    animateCss: function (animationName, display) {
+    animateCss: function (animationName, follow_up) {
       var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
       this.addClass('animated ' + animationName).one(animationEnd, function() {
-        if (!display) {
-          $(this).removeClass('animated ' + animationName);
-        }
-        else {
-          setTimeout(changeDisplay, 2000);
+        $(this).removeClass('animated ' + animationName);
+
+        if (follow_up !== undefined) {
+          function second_anim() {
+            $(this).animateCss(follow_up);
+          }
+
+          setTimeout($.proxy(second_anim, this), 1000);
         }
       });
     }
   });
 
   //initiate animation of first section
-  $("#header-1").animateCss('fadeInDownBig', false);
-  $("#header-2").animateCss('fadeInLeftBig', false);
-  $("#header-3").animateCss('fadeInUpBig', false);
-  $("#header-4").animateCss('fadeInLeftBig', false);
-  $("#contact-us").animateCss('fadeInUpBig', false);
-  $("#down-arrow").animateCss('fadeInUpBig', false);
+  $("#header-1").animateCss('fadeInDownBig');
+  $("#header-2").animateCss('fadeInLeftBig');
+  $("#header-3").animateCss('fadeInUpBig');
+  $("#header-4").animateCss('fadeInLeftBig');
+  $("#contact-us").animateCss('fadeInUpBig');
+  $("#down-arrow").animateCss('fadeInUpBig', 'bounce');
 
   //scroll
   var enableListener = true;
