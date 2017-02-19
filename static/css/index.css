@@ -308,7 +308,7 @@ body {
     font-family: 'main_font';
     display: inline-block;
     letter-spacing: 0.1em;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
     margin-left: 7%;
     margin-top: 1.5em;
@@ -345,7 +345,7 @@ body {
     width: 7em;
     height: 1.2em;
     background-color: #BCA178;
-    padding: 0.65em 2.4em;
+    padding: 0.8em 2.4em;
     margin-left: 7%;
     margin-right: 3%;
     line-height: 1.2em;
