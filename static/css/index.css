@@ -435,7 +435,7 @@ body {
   #header-section span {
     left: 2em;
     top: 2em;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 300;
   }
 
@@ -483,6 +483,8 @@ body {
 
   #email-btn {
     margin-left: 11%;
+    font-weight: 300;
+    padding: 0.65em 1.8em;
   }
 }
 
