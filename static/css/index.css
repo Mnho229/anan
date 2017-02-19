@@ -420,6 +420,7 @@ body {
 
   #header-section {
     margin-left: 9%;
+    margin-top: 10%;
   }
 
   .headers {
@@ -439,6 +440,20 @@ body {
 
   #header-4 {
     animation: none;
+  }
+
+  #anan-logo {
+    width: 14em;
+    margin-top: 11%;
+  }
+
+  #contact-us p {
+    font-weight: 300;
+    font-size: 0.75em;
+  }
+
+  #email-btn {
+    margin-left: 11%;
   }
 }
 
@@ -472,7 +487,7 @@ body {
   #header-section span {
     left: 2em;
     top: 1.5em;
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-weight: 200;
   }
 
