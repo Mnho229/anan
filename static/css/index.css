@@ -516,7 +516,7 @@ body {
 /*-------------------------VERTICAL IPAD--------------------------*/
 
 
-@media (min-width: 640px) and (max-width: 840px) {
+@media (min-width: 670px) and (max-width: 840px) {
 
   #first-contain {
     background-image: url("../assets/anan-ipad-bg-1.png");
@@ -629,7 +629,7 @@ body {
 
 }
 
-@media (min-width: 421px) and (max-width: 639px) {
+@media (min-width: 421px) and (max-width: 669px) {
   #black-screen {
     display:none;
   }
