@@ -1,8 +1,4 @@
 $(function() {
-
-  function changeDisplay() {
-    $('#black-screen').css({"display": "none"});
-  }
  
   //add new function for ease of animation
   $.fn.extend({
