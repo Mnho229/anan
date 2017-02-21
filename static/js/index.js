@@ -28,6 +28,7 @@ $(function() {
   $("#header-3").animateCss('fadeInUpBig');
   $("#header-4").animateCss('fadeInLeftBig');
   $("#contact-us").animateCss('fadeInUpBig');
+  $("#march-2017").animateCss('fadeIn');
   $("#down-arrow").animateCss('fadeInUpBig', 'bounce');
 
   //scroll
