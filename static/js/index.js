@@ -4,7 +4,6 @@ $(function() {
     section: ".scro",
     easing: "easeOutExpo",
     scrollSpeed: 1150,
-    scrollbars: false,
   });
  
   //add new function for ease of animation
