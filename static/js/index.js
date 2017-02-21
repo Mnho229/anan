@@ -4,7 +4,9 @@ $(function() {
     section: ".scro",
     easing: "easeOutExpo",
     scrollSpeed: 1150,
-    scrollbars: true,
+    scrollbars: false,
+    overflowScroll: false,
+    updateHash: false
   });
  
   //add new function for ease of animation
