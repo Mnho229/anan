@@ -1,11 +1,4 @@
 $(function() {
-
-  $.scrollify({
-    section: ".scro",
-    easing: "easeOutExpo",
-    scrollSpeed: 1150,
-    scrollbars: false,
-  });
  
   //add new function for ease of animation
   $.fn.extend({
@@ -35,6 +28,13 @@ $(function() {
   $("#down-arrow").animateCss('fadeInUpBig', 'bounce');
 
   //scroll
+  $.scrollify({
+    section: ".scro",
+    easing: "easeOutExpo",
+    scrollSpeed: 1150,
+    scrollbars: false,
+  });
+  
   var enableListener = true;
 
   if ($(window).width() <= 1040)
