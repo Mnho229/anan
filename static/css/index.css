@@ -405,7 +405,7 @@ body {
     left: 2em;
     top: 1.5em;
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   #header-1 {
@@ -439,7 +439,7 @@ body {
     animation: none;
     letter-spacing: 0.1em;
     margin-left: 11%;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   #contact-us p {
@@ -493,7 +493,7 @@ body {
     left: 2em;
     top: 1.5em;
     font-size: 0.75em;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   #header-1 {
@@ -531,7 +531,7 @@ body {
   #contact-us {
     animation: none;
     letter-spacing: 0.1em;
-    font-weight: 200;
+    font-weight: 300;
     margin-left: 11%;
   }
 
