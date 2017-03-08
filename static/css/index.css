@@ -443,7 +443,7 @@ body {
   }
 
   #contact-us p {
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: 300;
   }
 
@@ -533,6 +533,7 @@ body {
     animation: none;
     letter-spacing: 0.1em;
     margin-left: 11%;
+    width: 23em;
   }
 
   #contact-us p {
