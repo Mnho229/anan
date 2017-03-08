@@ -290,11 +290,13 @@ body {
 
   #header-3 {
     animation-delay: 0s;
+    content: "JOIN OUR";
   }
 
   #header-4 {
     margin-left: 15% !important;
     animation-delay: 0s;
+    content: "TEAM";
   }
 
   #mobile-location {
