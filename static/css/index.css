@@ -289,21 +289,21 @@ body {
   }
 
   #header-3 {
+    display: none;
     animation-delay: 0s;
   }
 
   #header-3::after {
-    display: none;
     content: "JOIN OUR";
   }
 
   #header-4 {
+    display: none;
     margin-left: 15% !important;
     animation-delay: 0s;
   }
 
   #header-4::after {
-    display: none;
     content: "TEAM";
   }
 
