@@ -118,7 +118,7 @@ body {
   font-family: 'main_font';
   color: white;
   padding-top: 2%;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.13em;
   animation-delay: 2s;
   margin-left: 15%;
   width: 24em;
@@ -335,6 +335,7 @@ body {
   #contact-us p {
     margin: 0;
     width: 16em;
+    font-weight: 200;
   }
 
   #down-arrow {
@@ -454,12 +455,6 @@ body {
     font-size: 0.95em;
   }
 
-  #email-btn {
-    margin-left: 10.5%;
-    font-weight: 300;
-    padding: 0.65em 1.8em;
-  }
-
   #bar-logo {
     height: 8em;
     margin-bottom: 3em;
@@ -467,10 +462,6 @@ body {
 
   #text-wrapper {
     font-size: 1em;
-  }
-
-  #text-wrapper h5 {
-    font-weight: bold;
   }
 
   #second-body {
