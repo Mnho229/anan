@@ -533,7 +533,7 @@ body {
     animation: none;
     letter-spacing: 0.1em;
     margin-left: 11%;
-    width: 17em;
+    width: 19em;
   }
 
   #contact-us p {
@@ -630,22 +630,6 @@ body {
     margin: 0 0 0 7%;
   }
 
-  #email-btn {
-    float: none;
-    width: 7em;
-    height: 1.2em;
-    background-color: #BCA178;
-    padding: 0.65em 1.9em;
-    margin-left: 7%;
-    margin-right: 3%;
-    line-height: 1.2em;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
-    letter-spacing: 0.13em;
-    font-size: 0.8em;
-    text-align: center;
-    color: white;
-  }
 
   #down-arrow {
     display:none;
