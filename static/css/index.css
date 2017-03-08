@@ -120,7 +120,7 @@ body {
   padding-top: 2%;
   letter-spacing: 0.13em;
   animation-delay: 2s;
-  margin-left: 15%;
+  margin-left: 14%;
   width: 24em;
 }
 
@@ -184,12 +184,6 @@ body {
 #second-body {
   font-size: 0.9em;
   width:13em;
-}
-
-#text-wrapper h5 {
-  font-weight:200;
-  font-size: 1.1em;
-  margin: 0;
 }
 
 #social-icons {
@@ -353,7 +347,7 @@ body {
     width:9em;
     height:6em;
     margin-left: 7%;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.4em;
     margin-top: 15%;
   }
 
@@ -364,12 +358,6 @@ body {
     letter-spacing: 0.13em;
     margin-top: 1.5em;
     font-size:1.1em;
-  }
-
-  #text-wrapper h5 {
-    font-weight:300;
-    font-size: 1.1em;
-    margin: 0;
   }
 
   #second-body {
@@ -569,10 +557,6 @@ body {
     font-size: 1em;
   }
 
-  #text-wrapper h5 {
-    font-weight: 300;
-  }
-
   #second-body {
     width: 12.5em;
     font-weight: 300;
@@ -687,12 +671,6 @@ body {
     letter-spacing: 0.13em;
     margin-top: 1.5em;
     font-size:1.1em;
-  }
-
-  #text-wrapper h5 {
-    font-weight:200;
-    font-size: 1.1em;
-    margin: 0;
   }
 
   #social-icons {
