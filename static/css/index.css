@@ -439,11 +439,12 @@ body {
     animation: none;
     letter-spacing: 0.1em;
     margin-left: 11%;
-    font-weight: 300;
+    width: 15em;
   }
 
   #contact-us p {
     font-size: 1em;
+    font-weight: 300;
   }
 
   #bar-logo {
@@ -531,12 +532,12 @@ body {
   #contact-us {
     animation: none;
     letter-spacing: 0.1em;
-    font-weight: 300;
     margin-left: 11%;
   }
 
   #contact-us p {
     font-size: 0.75em;
+    font-weight: 300;
   }
 
   #down-arrow {
