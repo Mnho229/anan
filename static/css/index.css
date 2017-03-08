@@ -289,20 +289,24 @@ body {
   }
 
   #header-3 {
-    display: none;
     animation-delay: 0s;
   }
 
+  #header-3 span {
+    display: none;
+  }
+
   #header-3::after {
-    display: block;
-    line-height: 1.2em;
     content: "JOIN OUR";
   }
 
   #header-4 {
-    display: none;
     margin-left: 15% !important;
     animation-delay: 0s;
+  }
+
+  #header-4 span {
+    display: none;
   }
 
   #header-4::after {
