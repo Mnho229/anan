@@ -294,6 +294,8 @@ body {
   }
 
   #header-3::after {
+    display: block;
+    line-height: 1.2em;
     content: "JOIN OUR";
   }
 
