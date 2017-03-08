@@ -117,9 +117,11 @@ body {
   clear: both;
   font-family: 'main_font';
   color: white;
-  padding-top: 3%;
+  padding-top: 2%;
   letter-spacing: 0.15em;
   animation-delay: 2s;
+  margin-left: 15%;
+  width: 24em;
 }
 
 #contact-us p {
@@ -178,7 +180,7 @@ body {
   width:20em;
   height:10.2em;
   margin-left: 10%;
-  margin-bottom:2em;
+  margin-bottom:4em;
   display: inline-block;
   margin-top:7%;
 }
