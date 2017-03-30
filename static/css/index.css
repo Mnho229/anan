@@ -391,7 +391,7 @@ body {
 
 @media (max-width: 420px) and (max-height: 460px) {
   #first-contain {
-    min-height: 135vh;
+    padding-bottom: 135px;
   }
 }
 
