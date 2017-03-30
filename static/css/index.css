@@ -118,11 +118,24 @@ body {
   font-family: 'main_font';
   color: white;
   padding-top: 2%;
-  letter-spacing: 0.13em;
+  letter-spacing: 0.15em;
   animation-delay: 2s;
-  margin-left: 14%;
-  width: 24em;
 }
+
+#email-btn {
+  float: left;
+  width: 6em;
+  height: 1em;
+  background-color: #BCA178;
+  padding: 0.65em 1.9em;
+  margin-left: 13%;
+  margin-right: 3%;
+  line-height: 1em;
+  margin-top: 0.2em;
+  color: white;
+  text-align: center;
+}
+
 
 #contact-us p {
   margin: 0;
@@ -228,7 +241,7 @@ body {
 @media (max-width: 420px) {
 
   #first-contain {
-    background-image: url("../assets/anan-mobile-bg-1-1.png");
+    background-image: url("../assets/anan-mobile-bg-1.png");
     background-color: #2F516D;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -276,10 +289,6 @@ body {
     display: none;
   }
 
-  #header-3::after {
-    content: "JOIN OUR";
-  }
-
   #header-4 {
     margin-left: 9% !important;
     animation-delay: 0s;
@@ -287,10 +296,6 @@ body {
 
   #header-4 span {
     display: none;
-  }
-
-  #header-4::after {
-    content: "TEAM";
   }
 
   #mobile-location {
@@ -316,12 +321,12 @@ body {
     margin-top: 10%;
     margin-left: 7%;
   }
-
+/*
   #contact-us {
     margin-top: 1em;
     margin-left: 7%;
   }
-
+*/
   #contact-us a {
     text-decoration: none;
   }
@@ -330,6 +335,24 @@ body {
     margin: 0;
     width: 16em;
     font-weight: 200;
+  }
+
+  #email-btn {
+    float: none;
+    width: 7em;
+    height: 1.2em;
+    background-color: #BCA178;
+    padding: 0.7em 2.4em;
+    margin-left: 7%;
+    margin-right: 3%;
+    line-height: 1.2em;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.13em;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
   }
 
   #down-arrow {
@@ -438,8 +461,6 @@ body {
   #contact-us {
     animation: none;
     letter-spacing: 0.1em;
-    margin-left: 11%;
-    width: 22em;
   }
 
   #contact-us p {
@@ -532,13 +553,18 @@ body {
   #contact-us {
     animation: none;
     letter-spacing: 0.1em;
-    margin-left: 11%;
-    width: 18em;
   }
 
   #contact-us p {
     font-size: 0.75em;
     font-weight: 300;
+  }
+
+  #email-btn {
+    font-weight: 300;
+    margin-left: 11%;
+    padding: 0.45em 1.2em;
+    font-size: 0.9em;
   }
 
   #down-arrow {
@@ -628,6 +654,24 @@ body {
 
   #contact-us p {
     margin: 0 0 0 7%;
+  }
+
+  
+  #email-btn {
+    float: none;
+    width: 7em;
+    height: 1.2em;
+    background-color: #BCA178;
+    padding: 0.65em 1.9em;
+    margin-left: 7%;
+    margin-right: 3%;
+    line-height: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.13em;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
   }
 
 
