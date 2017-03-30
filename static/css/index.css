@@ -285,17 +285,9 @@ body {
     animation-delay: 0s;
   }
 
-  #header-3 span {
-    display: none;
-  }
-
   #header-4 {
     margin-left: 9% !important;
     animation-delay: 0s;
-  }
-
-  #header-4 span {
-    display: none;
   }
 
   #mobile-location {
@@ -321,18 +313,13 @@ body {
     margin-top: 10%;
     margin-left: 7%;
   }
-/*
-  #contact-us {
-    margin-top: 1em;
-    margin-left: 7%;
-  }
-*/
+
   #contact-us a {
     text-decoration: none;
   }
 
   #contact-us p {
-    margin: 0;
+    margin: 0 0 0 7%;
     width: 16em;
     font-weight: 200;
   }
@@ -656,7 +643,7 @@ body {
     margin: 0 0 0 7%;
   }
 
-  
+
   #email-btn {
     float: none;
     width: 7em;
