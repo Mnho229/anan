@@ -389,6 +389,12 @@ body {
   }
 }
 
+@media (max-width: 420px) and (max-height: 640px) {
+  #first-contain {
+    min-height: 105vh;
+  }
+}
+
 /*------------------------HORIZONTAL IPAD-------------------------*/
 
 @media (min-width: 841px) and (max-width: 1040px) {
